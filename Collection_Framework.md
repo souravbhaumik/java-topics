@@ -5,11 +5,11 @@ What is collections?
 ```
 Iterable
 |
-- [Collection](#arraylist)
+Collection
 |
 |----List ( Ordered Collection, allow duplicates, index based access )
         |
-        |----[ArrayList](#arraylist)
+        |----ArrayList
         |----LinkedList
         |----Vector
         |----Stack
