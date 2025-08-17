@@ -5,7 +5,7 @@ What is collections?
 ```
 Iterable
 |
-[Collection](#arraylist)
+- [Collection](#arraylist)
 |
 |----List ( Ordered Collection, allow duplicates, index based access )
         |
