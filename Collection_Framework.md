@@ -121,20 +121,20 @@ Various ways to create ArrayList <br>
     System.out.println(shoppingList.getClass()); // class java.util.Arrays$ArrayList
     shoppingList.add("Ginger"); // throws java.lang.UnsupportedOperationException
     shoppingList.set(1, "Ginger"); // Replaces the value at index 1 with Ginger
-
+<br>
 2. 
-   
+
     String[] myArr = {"Apple", "Banana", "Orange"};
     List<String> shoppingList = Arrays.asList(myArr);
-
+<br>
 3. 
-    
+
     List shoppingList = List.of("Apple", "Banana", "Orange");
     shoppingList.add("Ginger"); // throws java.lang.UnsupportedOperationException
 
     With Arrays.asList(), new values can not be added, but values can be replaced in the existing index.
     With List.of(), neither values can be added, nor values can be replaced in the existing index.
-
+<br>
 4. 
 
     List<String> shoppingList = List.of("Apple", "Banana", "Orange");
