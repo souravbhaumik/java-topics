@@ -9,7 +9,7 @@ Iterable
 |
 |----List ( Ordered Collection, allow duplicates, index based access )
         |
-        |----[ArrayList](#arrayList)
+        |----[ArrayList](#arraylist)
         |----LinkedList
         |----Vector
         |----Stack
@@ -66,7 +66,7 @@ Signature - public interface List<E> extends Collection<E>
 
 ```
 
-* ## ArrayList
+* <h3 id="arraylist">ArrayList</h3>
 ```
 An ArrayList is a resizable array implementation of List interface. Unlike arrays in Java, which have a fixed size, an ArrayList can change it's size dynamically as elements are added or removed. This flexibility makes it a popular choice when the number of elements in a list isn't known in advance.
 ```
